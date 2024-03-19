@@ -1,0 +1,77 @@
+.grid{
+    width: 400px;
+    height: 600px;
+    background-image: url('src/background3.gif');
+    background-size: cover;
+    position: relative;
+    font-size: 200px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.doodler {
+    width: 60px;
+    height: 85px;
+    background-image: url('src/dood.png');
+    position: absolute;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-image: url('src/platform.png');
+    position: absolute;
+}
+
+.button-container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    position: relative;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#left-button,
+#up-button,
+#right-button {
+    width: 80px;
+    height: 50px;
+    font-size: 16px;
+    background-color: chocolate;
+    font-family:fantasy;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#start-button {
+    width: 150;
+    height: 100;
+    font-size: 40px;
+    font-family: fantasy;
+    background-color: darkgreen;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, 50%);
+}
+
+#left-button {
+    margin-top: 5%
+}
+
+#right-button {
+    margin-top: 5%;
+}
+
+#up-button {
+    align-self: flex-start;
+}

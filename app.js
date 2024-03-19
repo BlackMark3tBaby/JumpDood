@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let leftTimerId
     let rightTimerId
     let score = 0
+    
 
     // START MUSIC
 function playBackgroundMusic() {
